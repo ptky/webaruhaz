@@ -11,7 +11,7 @@
 <body>
     <main class="container-fluid">
     <header>
-        <h1>Webáruház</h1>
+        <h1 class="py-3">Webáruház</h1>
     </header>
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
@@ -28,74 +28,98 @@
           </ul>
         </div>
     </nav>
-    <aside>
-        <p>Keresési feltételek</p>
-        <p>A termék neve:</p>
-        <div class="form-floating mb-3 mt-3">
-            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-            <label for="email">A termék neve</label>
-          </div>
-        <label for="range1" class="form-label">Szűrés ár szerint:</label>
-        <input type="range" class="form-range" id="range1">
-    </aside>
-    <article>
-        <h2>Férfi Póló Mérettáblázat</h2>
-        <p>Az adatok centiméterben elérhetőek. A mérettáblázat hibahatára +/- 2cm.</p>
-        <table class="table">
-            <thead>
-              <tr>
-                <th>Méret</th>
-                <th>Szélesség</th>
-                <th>Hossz</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>S</td>
-                <td>50 cm</td>
-                <td>69 cm</td>
-              </tr>
-              <tr>
-                <td>M</td>
-                <td>53 cm</td>
-                <td>72 cm</td>
-              </tr>
-              <tr>
-                <td>L</td>
-                <td>56 cm</td>
-                <td>74 cm</td>
-              </tr>
-              <tr>
-                <td>XL</td>
-                <td>58 cm</td>
-                <td>76 cm</td>
-              </tr>
-              <tr>
-                <td>2XL</td>
-                <td>62 cm</td>
-                <td>78 cm</td>
-              </tr>
-              <tr>
-                <td>3XL</td>
-                <td>64 cm</td>
-                <td>80 cm</td>
-              </tr>
-              <tr>
-                <td>4XL</td>
-                <td>68 cm</td>
-                <td>84 cm</td>
-              </tr>
-              <tr>
-                <td>5XL</td>
-                <td>72 cm</td>
-                <td>88 cm</td>
-              </tr>
-            </tbody>
-          </table>
+    <div class="row">
+      <aside class="col-2">
+          <b>Keresési feltételek</b>
+          <p>A termék neve:</p>
+          <div class="form-floating mb-3 mt-3">
+              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+              <label for="email">A termék neve</label>
+            </div>
+          <label for="range1" class="form-label">Szűrés ár szerint:</label>
+          <input type="range" class="form-range" id="range1">
+      </aside>
+      <article class="col-7">
+          <h2>Férfi Póló Mérettáblázat</h2>
+          <p>Az adatok centiméterben elérhetőek. A mérettáblázat hibahatára +/- 2cm.</p>
+          <table class="table"> 
+              <thead>
+                <tr>
+                  <th>Méret</th>
+                  <th>Szélesség</th>
+                  <th>Hossz</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>S</td>
+                  <td>50 cm</td>
+                  <td>69 cm</td>
+                </tr>
+                <tr>
+                  <td>M</td>
+                  <td>53 cm</td>
+                  <td>72 cm</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>56 cm</td>
+                  <td>74 cm</td>
+                </tr>
+                <tr>
+                  <td>XL</td>
+                  <td>58 cm</td>
+                  <td>76 cm</td>
+                </tr>
+                <tr>
+                  <td>2XL</td>
+                  <td>62 cm</td>
+                  <td>78 cm</td>
+                </tr>
+                <tr>
+                  <td>3XL</td>
+                  <td>64 cm</td>
+                  <td>80 cm</td>
+                </tr>
+                <tr>
+                  <td>4XL</td>
+                  <td>68 cm</td>
+                  <td>84 cm</td>
+                </tr>
+                <tr>
+                  <td>5XL</td>
+                  <td>72 cm</td>
+                  <td>88 cm</td>
+                </tr>
+              </tbody>
+            </table>
+      </article>
+      <aside class="col-3">
+        <div>
+          <h3>Kapcsolódó cikkek 1</h3>
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus nemo odio veniam beatae dolor.
+            </li>
+            <li class="list-group-item">
+              Modi deleniti, molestias saepe dolorem consectetur accusantium
+              nesciunt a voluptates id aperiam.
+            </li>
+            <li class="list-group-item">
+              Aspernatur eos vero distinctio?
+            </li>
+          </ol>
         </div>
-    </article>
-    <aside></aside>
-    <footer></footer>
+        <div>
+          <h3>Kapcsolódó cikkek 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo odio veniam beatae dolor. Modi deleniti, molestias saepe dolorem consectetur accusantium nesciunt a voluptates id aperiam. Aspernatur eos vero distinctio? Possimus porro enim, sed ullam accusamus expedita dolor nisi eum amet voluptate facilis harum necessitatibus reprehenderit? Possimus quibusdam, at minima maxime temporibus, molestias recusandae inventore atque minus veritatis eaque ipsa.</p>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <p class="text-center">Biró Botond</p>
+    </footer>
     </main>
 </body>
 </html>
